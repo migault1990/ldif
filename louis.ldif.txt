@@ -1,0 +1,49 @@
+version: 1
+dn: dc=test,dc=com
+objectClass: domain
+objectClass: top
+dc: example
+
+dn: cn=rza,dc=test,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: rza
+givenName: Bobby
+sn: Digital
+
+dn: cn=gza,dc=test,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: gza
+sn: Genius
+
+dn: cn=odb,dc=test,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: odb
+sn: McGirt
+
+dn: cn=ghostface,dc=test,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: ghostface
+givenName: Tony
+sn: Starks
+
+dn: cn=ins,dc=test,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: ins
+givenName: Inspectah
+sn: Deck
+
